@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.uem.Controles.ControllerTime">
+   <children>
+       <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="600.0" minWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+           <children>
+               <TabPane fx:id="tabPanel" prefHeight="600.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE" tabMaxHeight="0">
+                   <tabs>
+                       <Tab disable="false" text="Escolha Personagens">
+                     <content>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <VBox>
+                                 <children>
+                                    <ImageView id="imgGuerreiro" fx:id="imgGuerreiro" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgGuerreiroClick" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@imagens/Guerreio_icon.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView id="imgCavaleiro" fx:id="imgCavaleiro" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgCavaleiroClick" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@imagens/Cavaleiro_icon.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView id="imgMago" fx:id="imgMago" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgMagoClick" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@imagens/Mago_icon.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView id="imgBruxo" fx:id="imgBruxa" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgBruxaClick" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@imagens/Bruxa_icon.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="571.0" prefWidth="100.0">
+                                 <children>
+                                    <Label prefHeight="130.0" prefWidth="99.0" text="Guerreiro">
+                                       <font>
+                                          <Font name="Calibri Light Italic" size="24.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefWidth="200.0" />
+                                    <Label prefHeight="140.0" prefWidth="92.0" text="Cavaleiro">
+                                       <font>
+                                          <Font name="Calibri Light Italic" size="24.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefWidth="200.0" />
+                                    <Label prefHeight="140.0" prefWidth="81.0" text="Mago">
+                                       <font>
+                                          <Font name="Calibri Light Italic" size="24.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefWidth="200.0" />
+                                    <Label prefHeight="140.0" prefWidth="80.0" text="Bruxa">
+                                       <font>
+                                          <Font name="Calibri Light Italic" size="24.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <TitledPane animated="false" collapsible="false" contentDisplay="TOP" prefHeight="629.0" prefWidth="560.0" text="SELECIONE SEU TIME" textAlignment="CENTER">
+                                <content>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="179.0" prefWidth="558.0">
+                                       <children>
+                                          <VBox prefHeight="545.0" prefWidth="558.0">
+                                             <children>
+                                                <HBox prefHeight="97.0" prefWidth="558.0">
+                                                   <children>
+                                                      <VBox prefHeight="200.0" prefWidth="100.0">
+                                                         <children>
+                                                            <ImageView fx:id="imgTimeView1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                                                            <Label fx:id="imgTimeLbl1" prefHeight="17.0" prefWidth="100.0">
+                                                               <font>
+                                                                  <Font size="18.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </VBox>
+                                                      <Separator orientation="VERTICAL" prefHeight="101.0" prefWidth="20.0" />
+                                                      <VBox prefHeight="200.0" prefWidth="100.0">
+                                                         <children>
+                                                            <ImageView fx:id="imgTimeView2" fitHeight="101.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                                                            <Label fx:id="imgTimeLbl2" prefHeight="17.0" prefWidth="100.0">
+                                                               <font>
+                                                                  <Font size="18.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </VBox>
+                                                      <Separator orientation="VERTICAL" prefHeight="101.0" prefWidth="20.0" />
+                                                      <VBox prefHeight="200.0" prefWidth="100.0">
+                                                         <children>
+                                                            <ImageView fx:id="imgTimeView3" fitHeight="101.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                                                            <Label fx:id="imgTimeLbl3" prefHeight="17.0" prefWidth="100.0">
+                                                               <font>
+                                                                  <Font size="18.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </VBox>
+                                                      <Separator orientation="VERTICAL" prefHeight="101.0" prefWidth="20.0" />
+                                                      <VBox prefHeight="200.0" prefWidth="100.0">
+                                                         <children>
+                                                            <ImageView fx:id="imgTimeView4" fitHeight="101.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                                                            <Label fx:id="imgTimeLbl4" prefHeight="17.0" prefWidth="100.0">
+                                                               <font>
+                                                                  <Font size="18.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </VBox>
+                                                      <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                                      <Button mnemonicParsing="false" onMouseClicked="#btnClick" prefHeight="132.0" prefWidth="94.0" text="OK" />
+                                                   </children>
+                                                </HBox>
+                                                <TitledPane animated="false" collapsible="false" prefHeight="426.0" prefWidth="558.0" text="TIME ADVERSÁRIO">
+                                                  <content>
+                                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="367.0" prefWidth="556.0">
+                                                         <children>
+                                                            <VBox prefHeight="131.0" prefWidth="557.0">
+                                                               <children>
+                                                                  <HBox prefHeight="120.0" prefWidth="503.0">
+                                                                     <children>
+                                                                        <VBox prefHeight="200.0" prefWidth="100.0">
+                                                                           <children>
+                                                                              <ImageView fx:id="imgAdverarioView1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                                                                              <Label fx:id="imgAdverarioLbl1" prefHeight="17.0" prefWidth="100.0">
+                                                                                 <font>
+                                                                                    <Font size="18.0" />
+                                                                                 </font>
+                                                                              </Label>
+                                                                           </children>
+                                                                        </VBox>
+                                                                        <Separator orientation="VERTICAL" prefHeight="101.0" prefWidth="20.0" />
+                                                                        <VBox prefHeight="200.0" prefWidth="100.0">
+                                                                           <children>
+                                                                              <ImageView fx:id="imgAdverarioView2" fitHeight="101.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                                                                              <Label fx:id="imgAdverarioLbl2" prefHeight="17.0" prefWidth="100.0">
+                                                                                 <font>
+                                                                                    <Font size="18.0" />
+                                                                                 </font>
+                                                                              </Label>
+                                                                           </children>
+                                                                        </VBox>
+                                                                        <Separator orientation="VERTICAL" prefHeight="101.0" prefWidth="20.0" />
+                                                                        <VBox prefHeight="200.0" prefWidth="100.0">
+                                                                           <children>
+                                                                              <ImageView fx:id="imgAdverarioView3" fitHeight="101.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                                                                              <Label fx:id="imgAdverarioLbl3" prefHeight="17.0" prefWidth="100.0">
+                                                                                 <font>
+                                                                                    <Font size="18.0" />
+                                                                                 </font>
+                                                                              </Label>
+                                                                           </children>
+                                                                        </VBox>
+                                                                        <Separator orientation="VERTICAL" prefHeight="101.0" prefWidth="20.0" />
+                                                                        <VBox prefHeight="200.0" prefWidth="100.0">
+                                                                           <children>
+                                                                              <ImageView fx:id="imgAdverarioView4" fitHeight="101.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                                                                              <Label fx:id="imgAdverarioLbl4" prefHeight="17.0" prefWidth="100.0">
+                                                                                 <font>
+                                                                                    <Font size="18.0" />
+                                                                                 </font>
+                                                                              </Label>
+                                                                           </children>
+                                                                        </VBox>
+                                                                        <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                                                     </children>
+                                                                  </HBox>
+                                                               </children>
+                                                            </VBox>
+                                                            <Separator layoutY="127.0" prefHeight="10.0" prefWidth="556.0" />
+                                                            <Button layoutX="50.0" layoutY="199.0" mnemonicParsing="false" onMouseClicked="#btnJogarClick" prefHeight="103.0" prefWidth="452.0" text="Jogar" />
+                                                         </children></AnchorPane>
+                                                  </content>
+                                                   <font>
+                                                      <Font name="Calibri" size="24.0" />
+                                                   </font>
+                                                </TitledPane>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </AnchorPane>
+                                </content>
+                                 <font>
+                                    <Font size="23.0" />
+                                 </font>
+                              </TitledPane>
+                           </children>
+                        </HBox>
+                     </content>
+                       </Tab>
+                       <Tab fx:id="tabLuta" disable="false" text="Luta">
+                     <content>
+                        <TitledPane animated="false" prefHeight="604.0" prefWidth="800.0" text="untitled">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="782.0" prefWidth="798.0">
+                                 <children>
+                                    <HBox layoutX="-1.0" layoutY="4.0" prefHeight="558.0" prefWidth="800.0" AnchorPane.bottomAnchor="5.0">
+                                       <children>
+                                          <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="389.0" prefWidth="140.0">
+                                             <children>
+                                                <ImageView id="imgGuerreiro" fx:id="imgGuerreiro1" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgGuerreiroClick" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@imagens/Guerreio_icon.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView id="imgCavaleiro" fx:id="imgCavaleiro1" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgCavaleiroClick" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@imagens/Cavaleiro_icon.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView id="imgMago" fx:id="imgMago1" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgMagoClick" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@imagens/Mago_icon.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView id="imgBruxo" fx:id="imgBruxa1" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgBruxaClick" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@imagens/Bruxa_icon.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </VBox>
+                                          <VBox prefHeight="571.0" prefWidth="100.0">
+                                             <children>
+                                                <Label prefHeight="130.0" prefWidth="99.0" text="Guerreiro">
+                                                   <font>
+                                                      <Font name="Calibri Light Italic" size="24.0" />
+                                                   </font>
+                                                </Label>
+                                                <Separator prefWidth="200.0" />
+                                                <Label prefHeight="140.0" prefWidth="92.0" text="Cavaleiro">
+                                                   <font>
+                                                      <Font name="Calibri Light Italic" size="24.0" />
+                                                   </font>
+                                                </Label>
+                                                <Separator prefWidth="200.0" />
+                                                <Label prefHeight="140.0" prefWidth="81.0" text="Mago">
+                                                   <font>
+                                                      <Font name="Calibri Light Italic" size="24.0" />
+                                                   </font>
+                                                </Label>
+                                                <Separator prefWidth="200.0" />
+                                                <Label prefHeight="140.0" prefWidth="80.0" text="Bruxa">
+                                                   <font>
+                                                      <Font name="Calibri Light Italic" size="24.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </VBox>
+                                          <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                          <VBox prefHeight="535.0" prefWidth="321.0">
+                                             <children>
+                                                <Separator prefWidth="200.0" />
+                                                <Separator prefWidth="200.0" />
+                                                <Separator prefWidth="200.0" />
+                                                <Button mnemonicParsing="false" prefHeight="56.0" prefWidth="217.0" text="Atacar">
+                                                   <VBox.margin>
+                                                      <Insets left="50.0" right="50.0" top="10.0" />
+                                                   </VBox.margin>
+                                                </Button>
+                                                <Button mnemonicParsing="false" prefHeight="56.0" prefWidth="217.0" text="Atacar">
+                                                   <VBox.margin>
+                                                      <Insets left="50.0" right="50.0" top="20.0" />
+                                                   </VBox.margin>
+                                                </Button>
+                                             </children>
+                                          </VBox>
+                                          <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                          <VBox prefHeight="571.0" prefWidth="100.0">
+                                             <children>
+                                                <Label prefHeight="130.0" prefWidth="99.0" text="Guerreiro">
+                                                   <font>
+                                                      <Font name="Calibri Light Italic" size="24.0" />
+                                                   </font>
+                                                </Label>
+                                                <Separator prefWidth="200.0" />
+                                                <Label prefHeight="140.0" prefWidth="92.0" text="Cavaleiro">
+                                                   <font>
+                                                      <Font name="Calibri Light Italic" size="24.0" />
+                                                   </font>
+                                                </Label>
+                                                <Separator prefWidth="200.0" />
+                                                <Label prefHeight="140.0" prefWidth="81.0" text="Mago">
+                                                   <font>
+                                                      <Font name="Calibri Light Italic" size="24.0" />
+                                                   </font>
+                                                </Label>
+                                                <Separator prefWidth="200.0" />
+                                                <Label prefHeight="140.0" prefWidth="80.0" text="Bruxa">
+                                                   <font>
+                                                      <Font name="Calibri Light Italic" size="24.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </VBox>
+                                          <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="389.0" prefWidth="140.0">
+                                             <children>
+                                                <ImageView id="imgGuerreiro" fx:id="imgGuerreiro11" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgGuerreiroClick" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@imagens/Guerreio_icon.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView id="imgCavaleiro" fx:id="imgCavaleiro11" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgCavaleiroClick" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@imagens/Cavaleiro_icon.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView id="imgMago" fx:id="imgMago11" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgMagoClick" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@imagens/Mago_icon.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView id="imgBruxo" fx:id="imgBruxa11" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgBruxaClick" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@imagens/Bruxa_icon.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </AnchorPane>
+                          </content>
+                        </TitledPane>
+                     </content></Tab>
+                   </tabs>
+               </TabPane>
+           </children>
+       </Pane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+
+
+</GridPane>
