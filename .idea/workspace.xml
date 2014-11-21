@@ -79,39 +79,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/uem/Controles/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6785715" vertical-offset="2305" max-vertical-offset="2992">
-              <caret line="165" column="5" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
+            <state vertical-scroll-proportion="2.9791045" vertical-offset="4668" max-vertical-offset="7123">
+              <caret line="392" column="0" selection-start-line="392" selection-start-column="0" selection-end-line="392" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#589#601#0" expanded="true" />
-                <element signature="e#832#843#0" expanded="true" />
-                <element signature="e#914#925#0" expanded="true" />
-                <element signature="e#989#996#0" expanded="true" />
-                <element signature="e#1059#1066#0" expanded="true" />
-                <element signature="e#1131#1138#0" expanded="true" />
-                <element signature="e#1203#1210#0" expanded="true" />
-                <element signature="e#1278#1289#0" expanded="true" />
-                <element signature="e#1356#1367#0" expanded="true" />
-                <element signature="e#1427#1434#0" expanded="true" />
-                <element signature="e#1493#1500#0" expanded="true" />
-                <element signature="method#imgCavaleiroClick#0;class#MainController#0" expanded="false" />
-                <element signature="method#imgMagoClick#0;class#MainController#0" expanded="false" />
-                <element signature="method#imgBruxaClick#0;class#MainController#0" expanded="false" />
-                <element signature="method#atualizaTime#0;class#MainController#0" expanded="false" />
-                <element signature="method#atualizaTime#1;class#MainController#0" expanded="false" />
-                <element signature="method#btnClick#0;class#MainController#0" expanded="false" />
-                <element signature="method#btnJogarClick#0;class#MainController#0" expanded="false" />
-                <element signature="method#imageViewTelaAtaqueJo2_Click#0;class#MainController#0" expanded="false" />
-                <element signature="method#imageViewTelaAtaqueJo3_Click#0;class#MainController#0" expanded="false" />
-                <element signature="method#imageViewTelaAtaqueJo4_Click#0;class#MainController#0" expanded="false" />
-                <element signature="method#imageViewTelaAtaqueAd1_Click#0;class#MainController#0" expanded="false" />
-                <element signature="method#imageViewTelaAtaqueAd2_Click#0;class#MainController#0" expanded="false" />
-                <element signature="method#imageViewTelaAtaqueAd3_Click#0;class#MainController#0" expanded="false" />
-                <element signature="method#imageViewTelaAtaqueAd4_Click#0;class#MainController#0" expanded="false" />
-                <element signature="method#atualizaVida#0;class#MainController#0" expanded="false" />
+                <element signature="e#486#498#0" expanded="true" />
+                <element signature="e#729#740#0" expanded="true" />
+                <element signature="e#811#822#0" expanded="true" />
+                <element signature="e#886#893#0" expanded="true" />
+                <element signature="e#956#963#0" expanded="true" />
+                <element signature="e#1028#1035#0" expanded="true" />
+                <element signature="e#1100#1107#0" expanded="true" />
+                <element signature="e#1175#1186#0" expanded="true" />
+                <element signature="e#1253#1264#0" expanded="true" />
+                <element signature="e#1324#1331#0" expanded="true" />
+                <element signature="e#1390#1397#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,11 +166,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.fxml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/uem/main.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334" vertical-offset="5350" max-vertical-offset="8024">
-              <caret line="327" column="77" selection-start-line="327" selection-start-column="77" selection-end-line="327" selection-end-column="77" />
+            <state vertical-scroll-proportion="-8.0" vertical-offset="3684" max-vertical-offset="8024">
+              <caret line="244" column="78" selection-start-line="244" selection-start-column="78" selection-end-line="244" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -221,8 +206,8 @@
         <option value="$PROJECT_DIR$/src/br/uem/utilitarios/MensagemUtils.java" />
         <option value="$PROJECT_DIR$/src/br/uem/utilitarios/TimeUtils.java" />
         <option value="$PROJECT_DIR$/src/br/uem/Controles/ControllerTime.java" />
-        <option value="$PROJECT_DIR$/src/br/uem/modelo/time/Time.java" />
         <option value="$PROJECT_DIR$/src/br/uem/main.fxml" />
+        <option value="$PROJECT_DIR$/src/br/uem/modelo/time/Time.java" />
         <option value="$PROJECT_DIR$/src/br/uem/Controles/MainController.java" />
       </list>
     </option>
@@ -735,15 +720,15 @@
       <workItem from="1416429591405" duration="2152000" />
       <workItem from="1416436838305" duration="1877000" />
       <workItem from="1416444365040" duration="9540000" />
-      <workItem from="1416516525593" duration="22455000" />
+      <workItem from="1416516525593" duration="20903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56489000" />
+    <option name="totallyTimeSpent" value="54937000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
@@ -756,7 +741,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21513514" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21513514" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14925373" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
@@ -766,7 +751,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26702702" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2681081" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -795,15 +780,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/br/uem/Controles/MainController.java</url>
-          <line>113</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="34" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -837,32 +814,17 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#589#601#0" expanded="true" />
-            <element signature="e#832#843#0" expanded="true" />
-            <element signature="e#914#925#0" expanded="true" />
-            <element signature="e#989#996#0" expanded="true" />
-            <element signature="e#1059#1066#0" expanded="true" />
-            <element signature="e#1131#1138#0" expanded="true" />
-            <element signature="e#1203#1210#0" expanded="true" />
-            <element signature="e#1278#1289#0" expanded="true" />
-            <element signature="e#1356#1367#0" expanded="true" />
-            <element signature="e#1427#1434#0" expanded="true" />
-            <element signature="e#1493#1500#0" expanded="true" />
-            <element signature="method#imgCavaleiroClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imgMagoClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imgBruxaClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaTime#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaTime#1;class#MainController#0" expanded="false" />
-            <element signature="method#btnClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#btnJogarClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo2_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo3_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo4_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd1_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd2_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd3_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd4_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaVida#0;class#MainController#0" expanded="false" />
+            <element signature="e#486#498#0" expanded="true" />
+            <element signature="e#729#740#0" expanded="true" />
+            <element signature="e#811#822#0" expanded="true" />
+            <element signature="e#886#893#0" expanded="true" />
+            <element signature="e#956#963#0" expanded="true" />
+            <element signature="e#1028#1035#0" expanded="true" />
+            <element signature="e#1100#1107#0" expanded="true" />
+            <element signature="e#1175#1186#0" expanded="true" />
+            <element signature="e#1253#1264#0" expanded="true" />
+            <element signature="e#1324#1331#0" expanded="true" />
+            <element signature="e#1390#1397#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -900,32 +862,17 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#589#601#0" expanded="true" />
-            <element signature="e#832#843#0" expanded="true" />
-            <element signature="e#914#925#0" expanded="true" />
-            <element signature="e#989#996#0" expanded="true" />
-            <element signature="e#1059#1066#0" expanded="true" />
-            <element signature="e#1131#1138#0" expanded="true" />
-            <element signature="e#1203#1210#0" expanded="true" />
-            <element signature="e#1278#1289#0" expanded="true" />
-            <element signature="e#1356#1367#0" expanded="true" />
-            <element signature="e#1427#1434#0" expanded="true" />
-            <element signature="e#1493#1500#0" expanded="true" />
-            <element signature="method#imgCavaleiroClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imgMagoClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imgBruxaClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaTime#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaTime#1;class#MainController#0" expanded="false" />
-            <element signature="method#btnClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#btnJogarClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo2_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo3_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo4_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd1_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd2_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd3_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd4_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaVida#0;class#MainController#0" expanded="false" />
+            <element signature="e#486#498#0" expanded="true" />
+            <element signature="e#729#740#0" expanded="true" />
+            <element signature="e#811#822#0" expanded="true" />
+            <element signature="e#886#893#0" expanded="true" />
+            <element signature="e#956#963#0" expanded="true" />
+            <element signature="e#1028#1035#0" expanded="true" />
+            <element signature="e#1100#1107#0" expanded="true" />
+            <element signature="e#1175#1186#0" expanded="true" />
+            <element signature="e#1253#1264#0" expanded="true" />
+            <element signature="e#1324#1331#0" expanded="true" />
+            <element signature="e#1390#1397#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1000,32 +947,17 @@
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#589#601#0" expanded="true" />
-            <element signature="e#832#843#0" expanded="true" />
-            <element signature="e#914#925#0" expanded="true" />
-            <element signature="e#989#996#0" expanded="true" />
-            <element signature="e#1059#1066#0" expanded="true" />
-            <element signature="e#1131#1138#0" expanded="true" />
-            <element signature="e#1203#1210#0" expanded="true" />
-            <element signature="e#1278#1289#0" expanded="true" />
-            <element signature="e#1356#1367#0" expanded="true" />
-            <element signature="e#1427#1434#0" expanded="true" />
-            <element signature="e#1493#1500#0" expanded="true" />
-            <element signature="method#imgCavaleiroClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imgMagoClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imgBruxaClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaTime#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaTime#1;class#MainController#0" expanded="false" />
-            <element signature="method#btnClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#btnJogarClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo2_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo3_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo4_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd1_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd2_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd3_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd4_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaVida#0;class#MainController#0" expanded="false" />
+            <element signature="e#486#498#0" expanded="true" />
+            <element signature="e#729#740#0" expanded="true" />
+            <element signature="e#811#822#0" expanded="true" />
+            <element signature="e#886#893#0" expanded="true" />
+            <element signature="e#956#963#0" expanded="true" />
+            <element signature="e#1028#1035#0" expanded="true" />
+            <element signature="e#1100#1107#0" expanded="true" />
+            <element signature="e#1175#1186#0" expanded="true" />
+            <element signature="e#1253#1264#0" expanded="true" />
+            <element signature="e#1324#1331#0" expanded="true" />
+            <element signature="e#1390#1397#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1070,32 +1002,17 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#589#601#0" expanded="true" />
-            <element signature="e#832#843#0" expanded="true" />
-            <element signature="e#914#925#0" expanded="true" />
-            <element signature="e#989#996#0" expanded="true" />
-            <element signature="e#1059#1066#0" expanded="true" />
-            <element signature="e#1131#1138#0" expanded="true" />
-            <element signature="e#1203#1210#0" expanded="true" />
-            <element signature="e#1278#1289#0" expanded="true" />
-            <element signature="e#1356#1367#0" expanded="true" />
-            <element signature="e#1427#1434#0" expanded="true" />
-            <element signature="e#1493#1500#0" expanded="true" />
-            <element signature="method#imgCavaleiroClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imgMagoClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imgBruxaClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaTime#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaTime#1;class#MainController#0" expanded="false" />
-            <element signature="method#btnClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#btnJogarClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo2_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo3_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo4_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd1_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd2_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd3_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd4_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaVida#0;class#MainController#0" expanded="false" />
+            <element signature="e#486#498#0" expanded="true" />
+            <element signature="e#729#740#0" expanded="true" />
+            <element signature="e#811#822#0" expanded="true" />
+            <element signature="e#886#893#0" expanded="true" />
+            <element signature="e#956#963#0" expanded="true" />
+            <element signature="e#1028#1035#0" expanded="true" />
+            <element signature="e#1100#1107#0" expanded="true" />
+            <element signature="e#1175#1186#0" expanded="true" />
+            <element signature="e#1253#1264#0" expanded="true" />
+            <element signature="e#1324#1331#0" expanded="true" />
+            <element signature="e#1390#1397#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1132,32 +1049,17 @@
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#589#601#0" expanded="true" />
-            <element signature="e#832#843#0" expanded="true" />
-            <element signature="e#914#925#0" expanded="true" />
-            <element signature="e#989#996#0" expanded="true" />
-            <element signature="e#1059#1066#0" expanded="true" />
-            <element signature="e#1131#1138#0" expanded="true" />
-            <element signature="e#1203#1210#0" expanded="true" />
-            <element signature="e#1278#1289#0" expanded="true" />
-            <element signature="e#1356#1367#0" expanded="true" />
-            <element signature="e#1427#1434#0" expanded="true" />
-            <element signature="e#1493#1500#0" expanded="true" />
-            <element signature="method#imgCavaleiroClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imgMagoClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imgBruxaClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaTime#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaTime#1;class#MainController#0" expanded="false" />
-            <element signature="method#btnClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#btnJogarClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo2_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo3_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo4_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd1_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd2_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd3_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd4_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaVida#0;class#MainController#0" expanded="false" />
+            <element signature="e#486#498#0" expanded="true" />
+            <element signature="e#729#740#0" expanded="true" />
+            <element signature="e#811#822#0" expanded="true" />
+            <element signature="e#886#893#0" expanded="true" />
+            <element signature="e#956#963#0" expanded="true" />
+            <element signature="e#1028#1035#0" expanded="true" />
+            <element signature="e#1100#1107#0" expanded="true" />
+            <element signature="e#1175#1186#0" expanded="true" />
+            <element signature="e#1253#1264#0" expanded="true" />
+            <element signature="e#1324#1331#0" expanded="true" />
+            <element signature="e#1390#1397#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1194,32 +1096,17 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#589#601#0" expanded="true" />
-            <element signature="e#832#843#0" expanded="true" />
-            <element signature="e#914#925#0" expanded="true" />
-            <element signature="e#989#996#0" expanded="true" />
-            <element signature="e#1059#1066#0" expanded="true" />
-            <element signature="e#1131#1138#0" expanded="true" />
-            <element signature="e#1203#1210#0" expanded="true" />
-            <element signature="e#1278#1289#0" expanded="true" />
-            <element signature="e#1356#1367#0" expanded="true" />
-            <element signature="e#1427#1434#0" expanded="true" />
-            <element signature="e#1493#1500#0" expanded="true" />
-            <element signature="method#imgCavaleiroClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imgMagoClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imgBruxaClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaTime#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaTime#1;class#MainController#0" expanded="false" />
-            <element signature="method#btnClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#btnJogarClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo2_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo3_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo4_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd1_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd2_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd3_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd4_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaVida#0;class#MainController#0" expanded="false" />
+            <element signature="e#486#498#0" expanded="true" />
+            <element signature="e#729#740#0" expanded="true" />
+            <element signature="e#811#822#0" expanded="true" />
+            <element signature="e#886#893#0" expanded="true" />
+            <element signature="e#956#963#0" expanded="true" />
+            <element signature="e#1028#1035#0" expanded="true" />
+            <element signature="e#1100#1107#0" expanded="true" />
+            <element signature="e#1175#1186#0" expanded="true" />
+            <element signature="e#1253#1264#0" expanded="true" />
+            <element signature="e#1324#1331#0" expanded="true" />
+            <element signature="e#1390#1397#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1314,6 +1201,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_40/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321033" vertical-offset="27819" max-vertical-offset="57477">
+          <caret line="1768" column="0" selection-start-line="1768" selection-start-column="0" selection-end-line="1768" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_40/javafx-src.zip!/javafx/scene/control/Tab.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.5813296" vertical-offset="1007" max-vertical-offset="12631">
@@ -1372,6 +1267,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/uem/modelo/personagem/Personagem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
+          <caret line="24" column="7" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/uem/modelo/personagem/Guerreiro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
@@ -1388,12 +1291,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/uem/utilitarios/MensagemUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_40/javafx-src.zip!/javafx/scene/image/Image.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3323782" vertical-offset="7945" max-vertical-offset="18530">
           <caret line="607" column="0" selection-start-line="607" selection-start-column="0" selection-end-line="607" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/uem/main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0" vertical-offset="3684" max-vertical-offset="8024">
+          <caret line="244" column="78" selection-start-line="244" selection-start-column="78" selection-end-line="244" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/uem/modelo/time/Time.java">
@@ -1416,75 +1338,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/uem/modelo/personagem/Personagem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
-          <caret line="24" column="7" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/uem/utilitarios/MensagemUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_40/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6017192" vertical-offset="27851" max-vertical-offset="57477">
-          <caret line="1784" column="17" selection-start-line="1784" selection-start-column="17" selection-end-line="1784" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/uem/Controles/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6785715" vertical-offset="2305" max-vertical-offset="2992">
-          <caret line="165" column="5" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
+        <state vertical-scroll-proportion="2.9791045" vertical-offset="4668" max-vertical-offset="7123">
+          <caret line="392" column="0" selection-start-line="392" selection-start-column="0" selection-end-line="392" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#589#601#0" expanded="true" />
-            <element signature="e#832#843#0" expanded="true" />
-            <element signature="e#914#925#0" expanded="true" />
-            <element signature="e#989#996#0" expanded="true" />
-            <element signature="e#1059#1066#0" expanded="true" />
-            <element signature="e#1131#1138#0" expanded="true" />
-            <element signature="e#1203#1210#0" expanded="true" />
-            <element signature="e#1278#1289#0" expanded="true" />
-            <element signature="e#1356#1367#0" expanded="true" />
-            <element signature="e#1427#1434#0" expanded="true" />
-            <element signature="e#1493#1500#0" expanded="true" />
-            <element signature="method#imgCavaleiroClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imgMagoClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imgBruxaClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaTime#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaTime#1;class#MainController#0" expanded="false" />
-            <element signature="method#btnClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#btnJogarClick#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo2_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo3_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueJo4_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd1_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd2_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd3_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#imageViewTelaAtaqueAd4_Click#0;class#MainController#0" expanded="false" />
-            <element signature="method#atualizaVida#0;class#MainController#0" expanded="false" />
+            <element signature="e#486#498#0" expanded="true" />
+            <element signature="e#729#740#0" expanded="true" />
+            <element signature="e#811#822#0" expanded="true" />
+            <element signature="e#886#893#0" expanded="true" />
+            <element signature="e#956#963#0" expanded="true" />
+            <element signature="e#1028#1035#0" expanded="true" />
+            <element signature="e#1100#1107#0" expanded="true" />
+            <element signature="e#1175#1186#0" expanded="true" />
+            <element signature="e#1253#1264#0" expanded="true" />
+            <element signature="e#1324#1331#0" expanded="true" />
+            <element signature="e#1390#1397#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/uem/main.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="5350" max-vertical-offset="8024">
-          <caret line="327" column="77" selection-start-line="327" selection-start-column="77" selection-end-line="327" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
   </component>

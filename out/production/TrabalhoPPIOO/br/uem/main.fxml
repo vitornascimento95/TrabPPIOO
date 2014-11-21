@@ -221,10 +221,10 @@
                                        <children>
                                           <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="389.0" prefWidth="140.0">
                                              <children>
-                                                <ImageView fx:id="imageViewTelaAtaqueJo1" onMouseClicked="#imageViewTelaAtaqueJo1_Click" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
-                                                <ImageView fx:id="imageViewTelaAtaqueJo2" onMouseClicked="#imageViewTelaAtaqueJo2_Click" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
-                                                <ImageView fx:id="imageViewTelaAtaqueJo3" onMouseClicked="#imageViewTelaAtaqueJo3_Click" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
-                                                <ImageView fx:id="imageViewTelaAtaqueJo4" onMouseClicked="#imageViewTelaAtaqueJo4_Click" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+                                                <ImageView fx:id="imageViewTelaAtaqueJo1" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+                                                <ImageView fx:id="imageViewTelaAtaqueJo2" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+                                                <ImageView fx:id="imageViewTelaAtaqueJo3" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+                                                <ImageView fx:id="imageViewTelaAtaqueJo4" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
                                              </children>
                                           </VBox>
                                           <VBox prefHeight="571.0" prefWidth="100.0">
@@ -437,10 +437,10 @@
                                           </VBox>
                                           <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="389.0" prefWidth="140.0">
                                              <children>
-                                                <ImageView fx:id="imageViewTelaAtaqueAd1" onMouseClicked="#imageViewTelaAtaqueAd1_Click" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
-                                                <ImageView fx:id="imageViewTelaAtaqueAd2" onMouseClicked="#imageViewTelaAtaqueAd2_Click" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
-                                                <ImageView fx:id="imageViewTelaAtaqueAd3" onMouseClicked="#imageViewTelaAtaqueAd3_Click" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
-                                                <ImageView fx:id="imageViewTelaAtaqueAd4" onMouseClicked="#imageViewTelaAtaqueAd4_Click" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+                                                <ImageView fx:id="imageViewTelaAtaqueAd1" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+                                                <ImageView fx:id="imageViewTelaAtaqueAd2" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+                                                <ImageView fx:id="imageViewTelaAtaqueAd3" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+                                                <ImageView fx:id="imageViewTelaAtaqueAd4" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
                                              </children>
                                           </VBox>
                                        </children>
