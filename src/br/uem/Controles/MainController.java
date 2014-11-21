@@ -6,10 +6,13 @@ import br.uem.utilitarios.MensagemUtils;
 import br.uem.utilitarios.TimeUtils;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
+import javafx.scene.control.ListView;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.web.WebView;
 
 
+import javax.swing.text.html.*;
 import java.awt.font.ImageGraphicAttribute;
 import java.util.ArrayList;
 import java.util.List;
@@ -35,6 +38,8 @@ public class MainController {
 
     private Time timeJogador;
     private Time timeCpu;
+
+    @FXML private ListView listViewCentral;
 
     @FXML private TabPane tabPanel;
     @FXML private Tab tabLuta;
@@ -405,6 +410,46 @@ public class MainController {
         tabPanel.getSelectionModel().select(tabLuta);
 
     }
+
+    @FXML protected void imageViewTelaAtaqueJo1_Click(){
+
+        labelNomeTelaAtaqueJo1.setText("SELECIONADO");
+
+
+
+
+    }
+    @FXML protected void imageViewTelaAtaqueJo2_Click(){
+
+
+    }
+    @FXML protected void imageViewTelaAtaqueJo3_Click(){
+
+
+    }
+    @FXML protected void imageViewTelaAtaqueJo4_Click(){
+
+
+    }
+
+    @FXML protected void imageViewTelaAtaqueAd1_Click(){
+
+
+    }
+    @FXML protected void imageViewTelaAtaqueAd2_Click(){
+
+
+    }
+    @FXML protected void imageViewTelaAtaqueAd3_Click(){
+
+
+    }
+    @FXML protected void imageViewTelaAtaqueAd4_Click(){
+
+
+    }
+
+
 
     private void atualizaVida(ArrayList<ImageView> listaCoracoes, ArrayList<Label> listaLabel, Time time, int index ){
         listaCoracoes.get(index).setVisible(true);
