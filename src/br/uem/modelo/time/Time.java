@@ -32,6 +32,10 @@ public class Time {
         return this.personagens.get(i).getNome();
     }
 
+    public Personagem getPersonagemById(int i){
+        return this.personagens.get(i);
+    }
+
     public void insertPersonagem(Personagem p){
         this.personagens.add(p);
     }

@@ -6,24 +6,32 @@ import br.uem.utilitarios.MensagemUtils;
 import br.uem.utilitarios.TimeUtils;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
 
+import java.awt.font.ImageGraphicAttribute;
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainController {
 
     public List<Personagem> timeJogadorList = new ArrayList<Personagem>();
-    List<ImageView> listaImagensTelaTimeJo = new ArrayList<ImageView>();
-    List<ImageView> listaImagensTelaTimeAd = new ArrayList<ImageView>();
-    List<ImageView> listaImagensTelaAtaqueJo = new ArrayList<ImageView>();
-    List<ImageView> listaImagensTelaAtaqueAd = new ArrayList<ImageView>();
+    public List<ImageView> listaImagensTelaTimeJo = new ArrayList<ImageView>();
+    public List<ImageView> listaImagensTelaTimeAd = new ArrayList<ImageView>();
+    public List<ImageView> listaImagensTelaAtaqueJo = new ArrayList<ImageView>();
+    public List<ImageView> listaImagensTelaAtaqueAd = new ArrayList<ImageView>();
 
-    List<Label> listaNomesTelaTimeJo = new ArrayList<Label>();
-    List<Label> listaNomesTelaTimeAd = new ArrayList<Label>();
-    List<Label> listaNomesTelaAtaqueJo = new ArrayList<Label>();
-    List<Label> listaNomesTelaAtaqueAd = new ArrayList<Label>();
+    public List<Label> listaNomesTelaTimeJo = new ArrayList<Label>();
+    public List<Label> listaNomesTelaTimeAd = new ArrayList<Label>();
+    public List<Label> listaNomesTelaAtaqueJo = new ArrayList<Label>();
+    public List<Label> listaNomesTelaAtaqueAd = new ArrayList<Label>();
+
+    public ArrayList<ImageView> listaCoracoesJo = new ArrayList<ImageView>();
+    public ArrayList<ImageView> listaCoracoesAd = new ArrayList<ImageView>();
+
+    public ArrayList<Label> listaLabeJo = new ArrayList<Label>();
+    public ArrayList<Label> listaLabeAd = new ArrayList<Label>();
 
     private Time timeJogador;
     private Time timeCpu;
@@ -56,25 +64,40 @@ public class MainController {
     @FXML private ImageView imageViewTelaAtaqueJo3;
     @FXML private ImageView imageViewTelaAtaqueJo4;
 
-    @FXML private ImageView imageViewTelaAtaqueAd1;
-    @FXML private ImageView imageViewTelaAtaqueAd2;
-    @FXML private ImageView imageViewTelaAtaqueAd3;
-    @FXML private ImageView imageViewTelaAtaqueAd4;
-
-
-
     @FXML private Label labelNomeTelaAtaqueJo1;
     @FXML private Label labelNomeTelaAtaqueJo2;
     @FXML private Label labelNomeTelaAtaqueJo3;
     @FXML private Label labelNomeTelaAtaqueJo4;
+
+    @FXML private ImageView imageViewTelaAtaqueAd1;
+    @FXML private ImageView imageViewTelaAtaqueAd2;
+    @FXML private ImageView imageViewTelaAtaqueAd3;
+    @FXML private ImageView imageViewTelaAtaqueAd4;
 
     @FXML private Label labelNomeTelaAtaqueAd1;
     @FXML private Label labelNomeTelaAtaqueAd2;
     @FXML private Label labelNomeTelaAtaqueAd3;
     @FXML private Label labelNomeTelaAtaqueAd4;
 
+    @FXML private Label labeVidaJo1;
+    @FXML private Label labeVidaJo2;
+    @FXML private Label labeVidaJo3;
+    @FXML private Label labeVidaJo4;
 
+    @FXML private ImageView imgCoracaoJo1;
+    @FXML private ImageView imgCoracaoJo2;
+    @FXML private ImageView imgCoracaoJo3;
+    @FXML private ImageView imgCoracaoJo4;
 
+    @FXML private Label labeVidaAd1;
+    @FXML private Label labeVidaAd2;
+    @FXML private Label labeVidaAd3;
+    @FXML private Label labeVidaAd4;
+
+    @FXML private ImageView imgCoracaoAd1;
+    @FXML private ImageView imgCoracaoAd2;
+    @FXML private ImageView imgCoracaoAd3;
+    @FXML private ImageView imgCoracaoAd4;
 
     @FXML private ImageView imgGuerreiro;
     @FXML private ImageView imgCavaleiro;
@@ -291,27 +314,58 @@ public class MainController {
         listaNomesTelaAtaqueJo.add(labelNomeTelaAtaqueJo3);
         listaNomesTelaAtaqueJo.add(labelNomeTelaAtaqueJo4);
 
+        listaCoracoesJo.add(imgCoracaoJo1);
+        listaCoracoesJo.add(imgCoracaoJo2);
+        listaCoracoesJo.add(imgCoracaoJo3);
+        listaCoracoesJo.add(imgCoracaoJo4);
+
+        listaCoracoesAd.add(imgCoracaoAd1);
+        listaCoracoesAd.add(imgCoracaoAd2);
+        listaCoracoesAd.add(imgCoracaoAd3);
+        listaCoracoesAd.add(imgCoracaoAd4);
+
+        listaLabeJo.add(labeVidaJo1);
+        listaLabeJo.add(labeVidaJo2);
+        listaLabeJo.add(labeVidaJo3);
+        listaLabeJo.add(labeVidaJo4);
+
+        listaLabeAd.add(labeVidaAd1);
+        listaLabeAd.add(labeVidaAd2);
+        listaLabeAd.add(labeVidaAd3);
+        listaLabeAd.add(labeVidaAd4);
+
 
         for ( int i = 0 ; i < timeJogador.getAll().size(); i++){
             if (timeJogador.getAll().get(i).getClass().equals(Guerreiro.class)){
 
                 listaImagensTelaAtaqueJo.get(i).setImage(imgGuerreiro.getImage());
                 listaNomesTelaAtaqueJo.get(i).setText(timeJogador.getNomeById(i));
+
+                atualizaVida(listaCoracoesJo, listaLabeJo, timeJogador, i);
+
             }
             if (timeJogador.getAll().get(i).getClass().equals(Cavaleiro.class)){
 
                 listaImagensTelaAtaqueJo.get(i).setImage(imgCavaleiro.getImage());
                 listaNomesTelaAtaqueJo.get(i).setText(timeJogador.getNomeById(i));
+
+                atualizaVida(listaCoracoesJo, listaLabeJo, timeJogador, i);
+
             }
             if (timeJogador.getAll().get(i).getClass().equals(Mago.class)){
 
                 listaImagensTelaAtaqueJo.get(i).setImage(imgMago.getImage());
                 listaNomesTelaAtaqueJo.get(i).setText(timeJogador.getNomeById(i));
+
+                atualizaVida(listaCoracoesJo, listaLabeJo, timeJogador, i);
+
             }
             if (timeJogador.getAll().get(i).getClass().equals(Bruxa.class)){
 
                 listaImagensTelaAtaqueJo.get(i).setImage(imgBruxa.getImage());
                 listaNomesTelaAtaqueJo.get(i).setText(timeJogador.getNomeById(i));
+
+                atualizaVida(listaCoracoesJo, listaLabeJo, timeJogador, i);
             }
         }
 
@@ -320,27 +374,40 @@ public class MainController {
 
                 listaImagensTelaAtaqueAd.get(i).setImage(imgGuerreiro.getImage());
                 listaNomesTelaAtaqueAd.get(i).setText(timeCpu.getNomeById(i));
+
+                atualizaVida(listaCoracoesAd, listaLabeAd, timeCpu, i);
+
             }
             if (timeCpu.getAll().get(i).getClass().equals(Cavaleiro.class)){
 
                 listaImagensTelaAtaqueAd.get(i).setImage(imgCavaleiro.getImage());
                 listaNomesTelaAtaqueAd.get(i).setText(timeCpu.getNomeById(i));
+
+                atualizaVida(listaCoracoesAd, listaLabeAd, timeCpu, i);
+
             }
-            if (timeCpu.getAll().get(i).getClass().equals(Mago.class)){
+            if (timeCpu.getAll().get(i).getClass().equals(Mago.class)) {
 
                 listaImagensTelaAtaqueAd.get(i).setImage(imgMago.getImage());
                 listaNomesTelaAtaqueAd.get(i).setText(timeCpu.getNomeById(i));
+
+                atualizaVida(listaCoracoesAd, listaLabeAd, timeCpu, i);
+
             }
             if (timeCpu.getAll().get(i).getClass().equals(Bruxa.class)){
 
                 listaImagensTelaAtaqueAd.get(i).setImage(imgBruxa.getImage());
                 listaNomesTelaAtaqueAd.get(i).setText(timeCpu.getNomeById(i));
+
+                atualizaVida(listaCoracoesAd, listaLabeAd, timeCpu, i);
             }
         }
         tabPanel.getSelectionModel().select(tabLuta);
 
+    }
 
-
-
+    private void atualizaVida(ArrayList<ImageView> listaCoracoes, ArrayList<Label> listaLabel, Time time, int index ){
+        listaCoracoes.get(index).setVisible(true);
+        listaLabel.get(index).setText(time.getPersonagemById(index).getQuantidadeVida() + "");
     }
 }
