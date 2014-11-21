@@ -30,22 +30,22 @@
                            <children>
                               <VBox>
                                  <children>
-                                    <ImageView id="imgGuerreiro" fx:id="imgGuerreiro" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgGuerreiroClick" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fx:id="imgGuerreiro" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgGuerreiroClick" pickOnBounds="true" preserveRatio="true">
                                        <image>
                                           <Image url="@imagens/Guerreio_icon.png" />
                                        </image>
                                     </ImageView>
-                                    <ImageView id="imgCavaleiro" fx:id="imgCavaleiro" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgCavaleiroClick" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fx:id="imgCavaleiro" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgCavaleiroClick" pickOnBounds="true" preserveRatio="true">
                                        <image>
                                           <Image url="@imagens/Cavaleiro_icon.png" />
                                        </image>
                                     </ImageView>
-                                    <ImageView id="imgMago" fx:id="imgMago" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgMagoClick" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fx:id="imgMago" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgMagoClick" pickOnBounds="true" preserveRatio="true">
                                        <image>
                                           <Image url="@imagens/Mago_icon.png" />
                                        </image>
                                     </ImageView>
-                                    <ImageView id="imgBruxo" fx:id="imgBruxa" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgBruxaClick" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fx:id="imgBruxa" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgBruxaClick" pickOnBounds="true" preserveRatio="true">
                                        <image>
                                           <Image url="@imagens/Bruxa_icon.png" />
                                        </image>
@@ -89,8 +89,8 @@
                                                    <children>
                                                       <VBox prefHeight="200.0" prefWidth="100.0">
                                                          <children>
-                                                            <ImageView fx:id="imgTimeView1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
-                                                            <Label fx:id="imgTimeLbl1" prefHeight="17.0" prefWidth="100.0">
+                                                            <ImageView fx:id="imageViewTelaTimeJo1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                                                            <Label fx:id="labelTelaTimeJo1" prefHeight="17.0" prefWidth="100.0">
                                                                <font>
                                                                   <Font size="18.0" />
                                                                </font>
@@ -100,8 +100,8 @@
                                                       <Separator orientation="VERTICAL" prefHeight="101.0" prefWidth="20.0" />
                                                       <VBox prefHeight="200.0" prefWidth="100.0">
                                                          <children>
-                                                            <ImageView fx:id="imgTimeView2" fitHeight="101.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
-                                                            <Label fx:id="imgTimeLbl2" prefHeight="17.0" prefWidth="100.0">
+                                                            <ImageView fx:id="imageViewTelaTimeJo2" fitHeight="101.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                                                            <Label fx:id="labelTelaTimeJo2" prefHeight="17.0" prefWidth="100.0">
                                                                <font>
                                                                   <Font size="18.0" />
                                                                </font>
@@ -111,8 +111,8 @@
                                                       <Separator orientation="VERTICAL" prefHeight="101.0" prefWidth="20.0" />
                                                       <VBox prefHeight="200.0" prefWidth="100.0">
                                                          <children>
-                                                            <ImageView fx:id="imgTimeView3" fitHeight="101.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
-                                                            <Label fx:id="imgTimeLbl3" prefHeight="17.0" prefWidth="100.0">
+                                                            <ImageView fx:id="imageViewTelaTimeJo3" fitHeight="101.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                                                            <Label fx:id="labelTelaTimeJo3" prefHeight="17.0" prefWidth="100.0">
                                                                <font>
                                                                   <Font size="18.0" />
                                                                </font>
@@ -122,8 +122,8 @@
                                                       <Separator orientation="VERTICAL" prefHeight="101.0" prefWidth="20.0" />
                                                       <VBox prefHeight="200.0" prefWidth="100.0">
                                                          <children>
-                                                            <ImageView fx:id="imgTimeView4" fitHeight="101.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
-                                                            <Label fx:id="imgTimeLbl4" prefHeight="17.0" prefWidth="100.0">
+                                                            <ImageView fx:id="imageViewTelaTimeJo4" fitHeight="101.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                                                            <Label fx:id="labelTelaTimeJo4" prefHeight="17.0" prefWidth="100.0">
                                                                <font>
                                                                   <Font size="18.0" />
                                                                </font>
@@ -144,8 +144,8 @@
                                                                      <children>
                                                                         <VBox prefHeight="200.0" prefWidth="100.0">
                                                                            <children>
-                                                                              <ImageView fx:id="imgAdverarioView1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
-                                                                              <Label fx:id="imgAdverarioLbl1" prefHeight="17.0" prefWidth="100.0">
+                                                                              <ImageView fx:id="imageViewTelaTimeAd1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                                                                              <Label fx:id="labelTelaTimeAd1" prefHeight="17.0" prefWidth="100.0">
                                                                                  <font>
                                                                                     <Font size="18.0" />
                                                                                  </font>
@@ -155,8 +155,8 @@
                                                                         <Separator orientation="VERTICAL" prefHeight="101.0" prefWidth="20.0" />
                                                                         <VBox prefHeight="200.0" prefWidth="100.0">
                                                                            <children>
-                                                                              <ImageView fx:id="imgAdverarioView2" fitHeight="101.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
-                                                                              <Label fx:id="imgAdverarioLbl2" prefHeight="17.0" prefWidth="100.0">
+                                                                              <ImageView fx:id="imageViewTelaTimeAd2" fitHeight="101.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                                                                              <Label fx:id="labelTelaTimeAd2" prefHeight="17.0" prefWidth="100.0">
                                                                                  <font>
                                                                                     <Font size="18.0" />
                                                                                  </font>
@@ -166,8 +166,8 @@
                                                                         <Separator orientation="VERTICAL" prefHeight="101.0" prefWidth="20.0" />
                                                                         <VBox prefHeight="200.0" prefWidth="100.0">
                                                                            <children>
-                                                                              <ImageView fx:id="imgAdverarioView3" fitHeight="101.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
-                                                                              <Label fx:id="imgAdverarioLbl3" prefHeight="17.0" prefWidth="100.0">
+                                                                              <ImageView fx:id="imageViewTelaTimeAd3" fitHeight="101.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                                                                              <Label fx:id="labelTelaTimeAd3" prefHeight="17.0" prefWidth="100.0">
                                                                                  <font>
                                                                                     <Font size="18.0" />
                                                                                  </font>
@@ -177,8 +177,8 @@
                                                                         <Separator orientation="VERTICAL" prefHeight="101.0" prefWidth="20.0" />
                                                                         <VBox prefHeight="200.0" prefWidth="100.0">
                                                                            <children>
-                                                                              <ImageView fx:id="imgAdverarioView4" fitHeight="101.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
-                                                                              <Label fx:id="imgAdverarioLbl4" prefHeight="17.0" prefWidth="100.0">
+                                                                              <ImageView fx:id="imageViewTelaTimeAd4" fitHeight="101.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                                                                              <Label fx:id="labelTelaTimeAd4" prefHeight="17.0" prefWidth="100.0">
                                                                                  <font>
                                                                                     <Font size="18.0" />
                                                                                  </font>
@@ -221,22 +221,22 @@
                                        <children>
                                           <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="389.0" prefWidth="140.0">
                                              <children>
-                                                <ImageView fx:id="ImgViewAtaqueJo1" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgGuerreiroClick" pickOnBounds="true" preserveRatio="true">
+                                                <ImageView fx:id="imageViewTelaAtaqueJo1" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
                                                       <Image url="@imagens/Guerreio_icon.png" />
                                                    </image>
                                                 </ImageView>
-                                                <ImageView fx:id="ImgViewAtaqueJo2" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgCavaleiroClick" pickOnBounds="true" preserveRatio="true">
+                                                <ImageView fx:id="imageViewTelaAtaqueJo2" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
                                                       <Image url="@imagens/Cavaleiro_icon.png" />
                                                    </image>
                                                 </ImageView>
-                                                <ImageView fx:id="ImgViewAtaqueJo3" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgMagoClick" pickOnBounds="true" preserveRatio="true">
+                                                <ImageView fx:id="imageViewTelaAtaqueJo3" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
                                                       <Image url="@imagens/Mago_icon.png" />
                                                    </image>
                                                 </ImageView>
-                                                <ImageView fx:id="ImgViewAtaqueJo4" fitHeight="140.0" fitWidth="140.0" onMouseClicked="#imgBruxaClick" pickOnBounds="true" preserveRatio="true">
+                                                <ImageView fx:id="imageViewTelaAtaqueJo4" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
                                                       <Image url="@imagens/Bruxa_icon.png" />
                                                    </image>
@@ -245,45 +245,101 @@
                                           </VBox>
                                           <VBox prefHeight="571.0" prefWidth="100.0">
                                              <children>
-                                                <Pane prefHeight="140.0" prefWidth="100.0">
+                                                <VBox prefHeight="140.0" prefWidth="100.0">
                                                    <children>
-                                                      <Label fx:id="lblNomeAtaqueJo1" prefHeight="40.0" prefWidth="100.0" text="Jogador1">
+                                                      <Label fx:id="labelNomeTelaAtaqueJo1" prefHeight="40.0" prefWidth="100.0" text="Jogador1">
                                                          <font>
                                                             <Font name="Calibri Light Italic" size="24.0" />
                                                          </font>
                                                       </Label>
+                                                      <HBox prefHeight="100.0" prefWidth="200.0">
+                                                         <children>
+                                                            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@imagens/life.png" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Label id="labeVidaJo1" prefHeight="50.0" prefWidth="50.0" text="100">
+                                                               <font>
+                                                                  <Font name="Calibri Light Italic" size="24.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </HBox>
                                                    </children>
-                                                </Pane>
+                                                </VBox>
                                                 <Separator prefWidth="200.0" />
-                                                <Pane prefHeight="140.0" prefWidth="100.0">
+                                                <VBox prefHeight="140.0" prefWidth="100.0">
                                                    <children>
-                                                      <Label fx:id="lblNomeAtaqueJo2" prefHeight="40.0" prefWidth="100.0" text="Jogador1">
+                                                      <Label fx:id="labelNomeTelaAtaqueJo2" prefHeight="40.0" prefWidth="100.0" text="Jogador1">
                                                          <font>
                                                             <Font name="Calibri Light Italic" size="24.0" />
                                                          </font>
                                                       </Label>
+                                                      <HBox prefHeight="100.0" prefWidth="200.0">
+                                                         <children>
+                                                            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@imagens/life.png" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Label id="labeVidaJo2" prefHeight="50.0" prefWidth="50.0" text="100">
+                                                               <font>
+                                                                  <Font name="Calibri Light Italic" size="24.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </HBox>
                                                    </children>
-                                                </Pane>
+                                                </VBox>
                                                 <Separator prefWidth="200.0" />
-                                                <Pane prefHeight="140.0" prefWidth="100.0">
+                                                <VBox prefHeight="140.0" prefWidth="100.0">
                                                    <children>
-                                                      <Label fx:id="lblNomeAtaqueJo3" prefHeight="40.0" prefWidth="100.0" text="Jogador1">
+                                                      <Label fx:id="labelNomeTelaAtaqueJo3" prefHeight="40.0" prefWidth="100.0" text="Jogador1">
                                                          <font>
                                                             <Font name="Calibri Light Italic" size="24.0" />
                                                          </font>
                                                       </Label>
+                                                      <HBox prefHeight="100.0" prefWidth="200.0">
+                                                         <children>
+                                                            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@imagens/life.png" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Label id="labeVidaJo3" prefHeight="50.0" prefWidth="50.0" text="100">
+                                                               <font>
+                                                                  <Font name="Calibri Light Italic" size="24.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </HBox>
                                                    </children>
-                                                </Pane>
+                                                </VBox>
                                                 <Separator prefWidth="200.0" />
-                                                <Pane prefHeight="140.0" prefWidth="100.0">
+                                                <VBox prefHeight="140.0" prefWidth="100.0">
                                                    <children>
-                                                      <Label fx:id="lblNomeAtaqueJo4" prefHeight="40.0" prefWidth="100.0" text="Jogador1">
+                                                      <Label fx:id="labelNomeTelaAtaqueJo4" prefHeight="40.0" prefWidth="100.0" text="Jogador1">
                                                          <font>
                                                             <Font name="Calibri Light Italic" size="24.0" />
                                                          </font>
                                                       </Label>
+                                                      <HBox prefHeight="100.0" prefWidth="200.0">
+                                                         <children>
+                                                            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@imagens/life.png" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Label id="labeVidaJo4" prefHeight="50.0" prefWidth="50.0" text="100">
+                                                               <font>
+                                                                  <Font name="Calibri Light Italic" size="24.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </HBox>
                                                    </children>
-                                                </Pane>
+                                                </VBox>
                                              </children>
                                           </VBox>
                                           <Separator orientation="VERTICAL" prefHeight="200.0" />
@@ -291,81 +347,136 @@
                                              <children>
                                                 <WebView prefHeight="374.0" prefWidth="317.0" />
                                                 <Separator prefWidth="200.0" />
-                                                <Button mnemonicParsing="false" prefHeight="56.0" prefWidth="217.0" text="Atacar">
+                                                <Button id="btnAtacar" mnemonicParsing="false" prefHeight="56.0" prefWidth="217.0" text="Atacar">
                                                    <VBox.margin>
                                                       <Insets left="50.0" right="50.0" top="20.0" />
                                                    </VBox.margin>
                                                 </Button>
-                                                <Button mnemonicParsing="false" prefHeight="56.0" prefWidth="217.0" text="Atacar">
+                                                <Button id="btnCurar" mnemonicParsing="false" prefHeight="56.0" prefWidth="217.0" text="Curar">
                                                    <VBox.margin>
                                                       <Insets left="50.0" right="50.0" top="10.0" />
                                                    </VBox.margin>
                                                 </Button>
-                                                <Separator prefWidth="200.0" />
                                              </children>
                                           </VBox>
                                           <Separator orientation="VERTICAL" prefHeight="200.0" />
                                           <VBox prefHeight="571.0" prefWidth="100.0">
                                              <children>
-                                                <Pane prefHeight="140.0" prefWidth="100.0">
+                                                <VBox prefHeight="140.0" prefWidth="100.0">
                                                    <children>
-                                                      <Label fx:id="lblNomeAtaqueAd1" prefHeight="40.0" prefWidth="100.0" text="Jogador2">
+                                                      <Label fx:id="labelNomeTelaAtaqueAd1" prefHeight="40.0" prefWidth="100.0" text="Jogador2">
                                                          <font>
                                                             <Font name="Calibri Light Italic" size="24.0" />
                                                          </font>
                                                       </Label>
+                                                      <HBox prefHeight="100.0" prefWidth="200.0">
+                                                         <children>
+                                                            <Label id="labeVidaAd1" prefHeight="50.0" prefWidth="50.0" text="100">
+                                                               <font>
+                                                                  <Font name="Calibri Light Italic" size="24.0" />
+                                                               </font>
+                                                            </Label>
+                                                            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@imagens/life.png" />
+                                                               </image>
+                                                            </ImageView>
+                                                         </children>
+                                                      </HBox>
                                                    </children>
-                                                </Pane>
+                                                </VBox>
                                                 <Separator prefWidth="200.0" />
-                                                <Pane prefHeight="140.0" prefWidth="100.0">
+                                                <VBox prefHeight="140.0" prefWidth="100.0">
                                                    <children>
-                                                      <Label fx:id="lblNomeAtaqueAd2" prefHeight="40.0" prefWidth="100.0" text="Jogador2">
+                                                      <Label fx:id="labelNomeTelaAtaqueAd2" prefHeight="40.0" prefWidth="100.0" text="Jogador2">
                                                          <font>
                                                             <Font name="Calibri Light Italic" size="24.0" />
                                                          </font>
                                                       </Label>
+                                                      <HBox prefHeight="100.0" prefWidth="200.0">
+                                                         <children>
+                                                            <Label id="labeVidaAd2" prefHeight="50.0" prefWidth="50.0" text="100">
+                                                               <font>
+                                                                  <Font name="Calibri Light Italic" size="24.0" />
+                                                               </font>
+                                                            </Label>
+                                                            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@imagens/life.png" />
+                                                               </image>
+                                                            </ImageView>
+                                                         </children>
+                                                      </HBox>
                                                    </children>
-                                                </Pane>
+                                                </VBox>
                                                 <Separator prefWidth="200.0" />
-                                                <Pane prefHeight="140.0" prefWidth="100.0">
+                                                <VBox prefHeight="140.0" prefWidth="100.0">
                                                    <children>
-                                                      <Label fx:id="lblNomeAtaqueAd3" prefHeight="40.0" prefWidth="100.0" text="Jogador2">
+                                                      <Label fx:id="labelNomeTelaAtaqueAd3" prefHeight="40.0" prefWidth="100.0" text="Jogador2">
                                                          <font>
                                                             <Font name="Calibri Light Italic" size="24.0" />
                                                          </font>
                                                       </Label>
+                                                      <HBox prefHeight="100.0" prefWidth="200.0">
+                                                         <children>
+                                                            <Label id="labeVidaAd3" prefHeight="50.0" prefWidth="50.0" text="100">
+                                                               <font>
+                                                                  <Font name="Calibri Light Italic" size="24.0" />
+                                                               </font>
+                                                            </Label>
+                                                            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@imagens/life.png" />
+                                                               </image>
+                                                            </ImageView>
+                                                         </children>
+                                                      </HBox>
                                                    </children>
-                                                </Pane>
+                                                </VBox>
                                                 <Separator prefWidth="200.0" />
-                                                <Pane prefHeight="140.0" prefWidth="100.0">
+                                                <VBox prefHeight="140.0" prefWidth="100.0">
                                                    <children>
-                                                      <Label fx:id="lblNomeAtaqueAd4" prefHeight="40.0" prefWidth="100.0" text="Jogador2">
+                                                      <Label fx:id="labelNomeTelaAtaqueAd4" prefHeight="40.0" prefWidth="100.0" text="Jogador2">
                                                          <font>
                                                             <Font name="Calibri Light Italic" size="24.0" />
                                                          </font>
                                                       </Label>
+                                                      <HBox prefHeight="100.0" prefWidth="200.0">
+                                                         <children>
+                                                            <Label id="labeVidaAd4" prefHeight="50.0" prefWidth="50.0" text="100">
+                                                               <font>
+                                                                  <Font name="Calibri Light Italic" size="24.0" />
+                                                               </font>
+                                                            </Label>
+                                                            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@imagens/life.png" />
+                                                               </image>
+                                                            </ImageView>
+                                                         </children>
+                                                      </HBox>
                                                    </children>
-                                                </Pane>
+                                                </VBox>
                                              </children>
                                           </VBox>
                                           <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="389.0" prefWidth="140.0">
                                              <children>
-                                                <ImageView fx:id="ImgViewAtaqueAd1" fitHeight="140.0" fitWidth="140.0"  pickOnBounds="true" preserveRatio="true">
+                                                <ImageView fx:id="imageViewTelaAtaqueAd1" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
                                                       <Image url="@imagens/Guerreio_icon.png" />
                                                    </image>
                                                 </ImageView>
-                                                <ImageView fx:id="ImgViewAtaqueAd2" fitHeight="140.0" fitWidth="140.0"  pickOnBounds="true" preserveRatio="true">
+                                                <ImageView fx:id="imageViewTelaAtaqueAd2" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
                                                       <Image url="@imagens/Cavaleiro_icon.png" />
                                                    </image>
                                                 </ImageView>
-                                                <ImageView fx:id="ImgViewAtaqueAd3" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+                                                <ImageView fx:id="imageViewTelaAtaqueAd3" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
                                                       <Image url="@imagens/Mago_icon.png" />
                                                    </image>
                                                 </ImageView>
-                                                <ImageView fx:id="ImgViewAtaqueAd4" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+                                                <ImageView fx:id="imageViewTelaAtaqueAd4" fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
                                                       <Image url="@imagens/Bruxa_icon.png" />
                                                    </image>

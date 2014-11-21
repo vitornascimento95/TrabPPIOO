@@ -79,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/uem/Controles/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21633238" vertical-offset="4201" max-vertical-offset="5814">
-              <caret line="256" column="42" selection-start-line="256" selection-start-column="42" selection-end-line="256" selection-end-column="42" />
+            <state vertical-scroll-proportion="-7.892857" vertical-offset="765" max-vertical-offset="5984">
+              <caret line="58" column="50" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#409#421#0" expanded="true" />
@@ -160,11 +160,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.fxml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.fxml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/uem/main.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="46.3" vertical-offset="5384" max-vertical-offset="6817">
-              <caret line="235" column="25" selection-start-line="235" selection-start-column="25" selection-end-line="235" selection-end-column="25" />
+            <state vertical-scroll-proportion="-0.4258373" vertical-offset="4347" max-vertical-offset="8704">
+              <caret line="240" column="80" selection-start-line="240" selection-start-column="80" selection-end-line="240" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -200,9 +200,9 @@
         <option value="$PROJECT_DIR$/src/br/uem/utilitarios/MensagemUtils.java" />
         <option value="$PROJECT_DIR$/src/br/uem/utilitarios/TimeUtils.java" />
         <option value="$PROJECT_DIR$/src/br/uem/Controles/ControllerTime.java" />
-        <option value="$PROJECT_DIR$/src/br/uem/main.fxml" />
         <option value="$PROJECT_DIR$/src/br/uem/modelo/time/Time.java" />
         <option value="$PROJECT_DIR$/src/br/uem/Controles/MainController.java" />
+        <option value="$PROJECT_DIR$/src/br/uem/main.fxml" />
       </list>
     </option>
   </component>
@@ -714,12 +714,12 @@
       <workItem from="1416429591405" duration="2152000" />
       <workItem from="1416436838305" duration="1877000" />
       <workItem from="1416444365040" duration="9540000" />
-      <workItem from="1416516525593" duration="12033000" />
+      <workItem from="1416516525593" duration="16635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46067000" />
+    <option name="totallyTimeSpent" value="50669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -1230,17 +1230,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/uem/main.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="46.3" vertical-offset="5384" max-vertical-offset="6817">
-          <caret line="235" column="25" selection-start-line="235" selection-start-column="25" selection-end-line="235" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/uem/utilitarios/TimeUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
@@ -1263,22 +1252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/uem/modelo/personagem/Guerreiro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/uem/modelo/personagem/Personagem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
-          <caret line="24" column="7" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1309,10 +1282,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/uem/modelo/personagem/Personagem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
+          <caret line="24" column="7" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/uem/modelo/personagem/Guerreiro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/uem/Controles/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21633238" vertical-offset="4201" max-vertical-offset="5814">
-          <caret line="256" column="42" selection-start-line="256" selection-start-column="42" selection-end-line="256" selection-end-column="42" />
+        <state vertical-scroll-proportion="-7.892857" vertical-offset="765" max-vertical-offset="5984">
+          <caret line="58" column="50" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#409#421#0" expanded="true" />
@@ -1324,6 +1313,17 @@
             <element signature="e#967#974#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/uem/main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.4258373" vertical-offset="4347" max-vertical-offset="8704">
+          <caret line="240" column="80" selection-start-line="240" selection-start-column="80" selection-end-line="240" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
   </component>

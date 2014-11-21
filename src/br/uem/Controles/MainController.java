@@ -30,42 +30,52 @@ public class MainController {
 
     @FXML private TabPane tabPanel;
     @FXML private Tab tabLuta;
-    @FXML private ImageView imgTimeView1;
-    @FXML private ImageView imgTimeView2;
-    @FXML private ImageView imgTimeView3;
-    @FXML private ImageView imgTimeView4;
 
-    @FXML private ImageView ImgViewAtaqueAd1;
-    @FXML private ImageView ImgViewAtaqueAd2;
-    @FXML private ImageView ImgViewAtaqueAd3;
-    @FXML private ImageView ImgViewAtaqueAd4;
-    @FXML private ImageView ImgViewAtaqueJo1;
-    @FXML private ImageView ImgViewAtaqueJo2;
-    @FXML private ImageView ImgViewAtaqueJo3;
-    @FXML private ImageView ImgViewAtaqueJo4;
+    @FXML private ImageView imageViewTelaTimeJo1;
+    @FXML private ImageView imageViewTelaTimeJo2;
+    @FXML private ImageView imageViewTelaTimeJo3;
+    @FXML private ImageView imageViewTelaTimeJo4;
 
-    @FXML private Label lblNomeAtaqueJo1;
-    @FXML private Label lblNomeAtaqueJo2;
-    @FXML private Label lblNomeAtaqueJo3;
-    @FXML private Label lblNomeAtaqueJo4;
-    @FXML private Label lblNomeAtaqueAd1;
-    @FXML private Label lblNomeAtaqueAd2;
-    @FXML private Label lblNomeAtaqueAd3;
-    @FXML private Label lblNomeAtaqueAd4;
+    @FXML private Label labelTelaTimeJo1;
+    @FXML private Label labelTelaTimeJo2;
+    @FXML private Label labelTelaTimeJo3;
+    @FXML private Label labelTelaTimeJo4;
+
+    @FXML private ImageView imageViewTelaTimeAd1;
+    @FXML private ImageView imageViewTelaTimeAd2;
+    @FXML private ImageView imageViewTelaTimeAd3;
+    @FXML private ImageView imageViewTelaTimeAd4;
+
+    @FXML private Label labelTelaTimeAd1;
+    @FXML private Label labelTelaTimeAd2;
+    @FXML private Label labelTelaTimeAd3;
+    @FXML private Label labelTelaTimeAd4;
+
+    @FXML private ImageView imageViewTelaAtaqueJo1;
+    @FXML private ImageView imageViewTelaAtaqueJo2;
+    @FXML private ImageView imageViewTelaAtaqueJo3;
+    @FXML private ImageView imageViewTelaAtaqueJo4;
+
+    @FXML private ImageView imageViewTelaAtaqueAd1;
+    @FXML private ImageView imageViewTelaAtaqueAd2;
+    @FXML private ImageView imageViewTelaAtaqueAd3;
+    @FXML private ImageView imageViewTelaAtaqueAd4;
 
 
-    @FXML private Label imgTimeLbl1;
-    @FXML private Label imgTimeLbl2;
-    @FXML private Label imgTimeLbl3;
-    @FXML private Label imgTimeLbl4;
-    @FXML private ImageView imgAdverarioView1;
-    @FXML private ImageView imgAdverarioView2;
-    @FXML private ImageView imgAdverarioView3;
-    @FXML private ImageView imgAdverarioView4;
-    @FXML private Label imgAdverarioLbl1;
-    @FXML private Label imgAdverarioLbl2;
-    @FXML private Label imgAdverarioLbl3;
-    @FXML private Label imgAdverarioLbl4;
+
+    @FXML private Label labelNomeTelaAtaqueJo1;
+    @FXML private Label labelNomeTelaAtaqueJo2;
+    @FXML private Label labelNomeTelaAtaqueJo3;
+    @FXML private Label labelNomeTelaAtaqueJo4;
+
+    @FXML private Label labelNomeTelaAtaqueAd1;
+    @FXML private Label labelNomeTelaAtaqueAd2;
+    @FXML private Label labelNomeTelaAtaqueAd3;
+    @FXML private Label labelNomeTelaAtaqueAd4;
+
+
+
+
     @FXML private ImageView imgGuerreiro;
     @FXML private ImageView imgCavaleiro;
     @FXML private ImageView imgMago;
@@ -178,14 +188,14 @@ public class MainController {
     }
     protected void atualizaTime(){
 
-        listaImagensTelaTimeJo.add(imgTimeView1);
-        listaImagensTelaTimeJo.add(imgTimeView2);
-        listaImagensTelaTimeJo.add(imgTimeView3);
-        listaImagensTelaTimeJo.add(imgTimeView4);
-        listaNomesTelaTimeJo.add(imgTimeLbl1);
-        listaNomesTelaTimeJo.add(imgTimeLbl2);
-        listaNomesTelaTimeJo.add(imgTimeLbl3);
-        listaNomesTelaTimeJo.add(imgTimeLbl4);
+        listaImagensTelaTimeJo.add(imageViewTelaTimeJo1);
+        listaImagensTelaTimeJo.add(imageViewTelaTimeJo2);
+        listaImagensTelaTimeJo.add(imageViewTelaTimeJo3);
+        listaImagensTelaTimeJo.add(imageViewTelaTimeJo4);
+        listaNomesTelaTimeJo.add(labelTelaTimeJo1);
+        listaNomesTelaTimeJo.add(labelTelaTimeJo2);
+        listaNomesTelaTimeJo.add(labelTelaTimeJo3);
+        listaNomesTelaTimeJo.add(labelTelaTimeJo4);
 
         for ( int i = 0 ; i < timeJogadorList.size(); i++){
 
@@ -216,14 +226,14 @@ public class MainController {
     }
     protected void atualizaTime(Time timeAdversario) {
 
-        listaImagensTelaTimeAd.add(imgAdverarioView1);
-        listaImagensTelaTimeAd.add(imgAdverarioView2);
-        listaImagensTelaTimeAd.add(imgAdverarioView3);
-        listaImagensTelaTimeAd.add(imgAdverarioView4);
-        listaNomesTelaTimeAd.add(imgAdverarioLbl1);
-        listaNomesTelaTimeAd.add(imgAdverarioLbl2);
-        listaNomesTelaTimeAd.add(imgAdverarioLbl3);
-        listaNomesTelaTimeAd.add(imgAdverarioLbl4);
+        listaImagensTelaTimeAd.add(imageViewTelaTimeAd1);
+        listaImagensTelaTimeAd.add(imageViewTelaTimeAd2);
+        listaImagensTelaTimeAd.add(imageViewTelaTimeAd3);
+        listaImagensTelaTimeAd.add(imageViewTelaTimeAd4);
+        listaNomesTelaTimeAd.add(labelTelaTimeAd1);
+        listaNomesTelaTimeAd.add(labelTelaTimeAd2);
+        listaNomesTelaTimeAd.add(labelTelaTimeAd3);
+        listaNomesTelaTimeAd.add(labelTelaTimeAd4);
 
         for (int i = 0; i < timeAdversario.getAll().size(); i++) {
 
@@ -261,25 +271,25 @@ public class MainController {
 
     @FXML protected void btnJogarClick(){
 
-        listaImagensTelaAtaqueAd.add(ImgViewAtaqueAd1);
-        listaImagensTelaAtaqueAd.add(ImgViewAtaqueAd2);
-        listaImagensTelaAtaqueAd.add(ImgViewAtaqueAd3);
-        listaImagensTelaAtaqueAd.add(ImgViewAtaqueAd4);
+        listaImagensTelaAtaqueAd.add(imageViewTelaAtaqueAd1);
+        listaImagensTelaAtaqueAd.add(imageViewTelaAtaqueAd2);
+        listaImagensTelaAtaqueAd.add(imageViewTelaAtaqueAd3);
+        listaImagensTelaAtaqueAd.add(imageViewTelaAtaqueAd4);
 
-        listaImagensTelaAtaqueJo.add(ImgViewAtaqueJo1);
-        listaImagensTelaAtaqueJo.add(ImgViewAtaqueJo2);
-        listaImagensTelaAtaqueJo.add(ImgViewAtaqueJo3);
-        listaImagensTelaAtaqueJo.add(ImgViewAtaqueJo4);
+        listaImagensTelaAtaqueJo.add(imageViewTelaAtaqueJo1);
+        listaImagensTelaAtaqueJo.add(imageViewTelaAtaqueJo2);
+        listaImagensTelaAtaqueJo.add(imageViewTelaAtaqueJo3);
+        listaImagensTelaAtaqueJo.add(imageViewTelaAtaqueJo4);
 
-        listaNomesTelaAtaqueAd.add(lblNomeAtaqueAd1);
-        listaNomesTelaAtaqueAd.add(lblNomeAtaqueAd2);
-        listaNomesTelaAtaqueAd.add(lblNomeAtaqueAd3);
-        listaNomesTelaAtaqueAd.add(lblNomeAtaqueAd4);
+        listaNomesTelaAtaqueAd.add(labelNomeTelaAtaqueAd1);
+        listaNomesTelaAtaqueAd.add(labelNomeTelaAtaqueAd2);
+        listaNomesTelaAtaqueAd.add(labelNomeTelaAtaqueAd3);
+        listaNomesTelaAtaqueAd.add(labelNomeTelaAtaqueAd4);
 
-        listaNomesTelaAtaqueJo.add(lblNomeAtaqueJo1);
-        listaNomesTelaAtaqueJo.add(lblNomeAtaqueJo2);
-        listaNomesTelaAtaqueJo.add(lblNomeAtaqueJo3);
-        listaNomesTelaAtaqueJo.add(lblNomeAtaqueJo4);
+        listaNomesTelaAtaqueJo.add(labelNomeTelaAtaqueJo1);
+        listaNomesTelaAtaqueJo.add(labelNomeTelaAtaqueJo2);
+        listaNomesTelaAtaqueJo.add(labelNomeTelaAtaqueJo3);
+        listaNomesTelaAtaqueJo.add(labelNomeTelaAtaqueJo4);
 
 
         for ( int i = 0 ; i < timeJogador.getAll().size(); i++){
