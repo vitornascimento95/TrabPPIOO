@@ -1,19 +1,24 @@
 package br.uem.Controles;
 
+import br.uem.Exception.MortoException;
 import br.uem.modelo.personagem.*;
 import br.uem.modelo.time.Time;
+import br.uem.utilitarios.CombateUtils;
 import br.uem.utilitarios.MensagemUtils;
 import br.uem.utilitarios.TimeUtils;
+
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.ListView;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.web.WebView;
+import sun.misc.MessageUtils;
 
 
 import javax.swing.text.html.*;
 import java.awt.font.ImageGraphicAttribute;
+import java.security.MessageDigest;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -39,7 +44,7 @@ public class MainController {
     private Time timeJogador;
     private Time timeCpu;
 
-    @FXML private ListView listViewCentral;
+    @FXML private TextArea textAreaCentral;
 
     @FXML private TabPane tabPanel;
     @FXML private Tab tabLuta;
@@ -296,7 +301,6 @@ public class MainController {
 
         atualizaTime(timeCpu);
     }
-
     @FXML protected void btnJogarClick(){
 
         listaImagensTelaAtaqueAd.add(imageViewTelaAtaqueAd1);
@@ -411,41 +415,180 @@ public class MainController {
 
     }
 
+    protected void inserirLog(String log){
+        textAreaCentral.setText( log + "\n\n" + textAreaCentral.getText());
+    }
+
+    protected void selecionaPersonagemJogador(int index) {
+        if (CombateUtils.personagemAtivo == null) {
+
+            if (timeJogador.getPersonagemById(index).getQuantidadeVida() <= 0) {
+                MensagemUtils.ShowMessage("Personagem morto \n Ecolha outro!");
+                return;
+            }
+
+            CombateUtils.personagemAtivo = timeJogador.getPersonagemById(index);
+            CombateUtils.posAtivo = index;
+            listaNomesTelaAtaqueJo.get(index).setText("SELECIONADO");
+            inserirLog("Personagem " + CombateUtils.personagemAtivo.getNome() + " Selecionado para Executar Ação");
+            return;
+        }
+        if (CombateUtils.personagemAtivo != null) {
+            if (CombateUtils.posAtivo == index) {
+                CombateUtils.personagemAtivo = null;
+                listaNomesTelaAtaqueJo.get(index).setText(timeJogador.getNomeById(index));
+                inserirLog("Personagem " + timeJogador.getNomeById(index) + " Retirado da Ação");
+                CombateUtils.posAtivo = -1;
+            }
+            else {
+                MensagemUtils.ShowMessage("Já há um personagem para executar ação selecionado!");
+            }
+
+        }
+
+    }
+
+    protected void selecionaPersonagemCpu(int index) {
+
+        if(CombateUtils.acao < 0){
+            MensagemUtils.ShowMessage("Selecione uma ação!");
+            return;
+        }
+
+        if (CombateUtils.acao == 0){
+            atacar(index);
+        }
+
+        if (CombateUtils.acao == 1){
+            curar(index);
+        }
+
+    }
+
+    protected void atacar(int index){
+        if (CombateUtils.personagemPassivel == null) {
+
+            if (timeCpu.getPersonagemById(index).getQuantidadeVida() <= 0) {
+                MensagemUtils.ShowMessage("Personagem morto \n Ecolha outro!");
+                return;
+            }
+
+            CombateUtils.personagemPassivel = timeCpu.getPersonagemById(index);
+            CombateUtils.posPassivel = index;
+            listaNomesTelaAtaqueAd.get(index).setText("SELECIONADO");
+            inserirLog("Personagem " + CombateUtils.personagemPassivel.getNome() + " Selecionado para Receber Ação");
+            inserirLog(CombateUtils.executarAtaque());
+            btnJogarClick();
+
+            CombateUtils.zerarRodada();
+
+            return;
+        }
+    }
+
+    protected void curar(int index){
+        if (CombateUtils.personagemPassivel == null){
+            if (timeJogador.getPersonagemById(index).getQuantidadeVida() <= 0) {
+                MensagemUtils.ShowMessage("Personagem morto \n Ecolha outro!");
+                return;
+            }
+            if(index == CombateUtils.posAtivo){
+                MensagemUtils.ShowMessage("Não pode curar sí mesmo");
+                return;
+            }
+
+            CombateUtils.personagemPassivel = timeJogador.getPersonagemById(index);
+            CombateUtils.posPassivel = index;
+            listaNomesTelaAtaqueJo.get(index).setText("SELECIONADO");
+            inserirLog("Personagem " + CombateUtils.personagemPassivel.getNome() + " Selecionado para Receber Ação");
+
+            String resposta = CombateUtils.executaCura();
+
+            inserirLog("Vida recebida: " + resposta);
+            btnJogarClick();
+
+            CombateUtils.zerarRodada();
+
+
+            return;
+        }
+    }
+
+    @FXML protected void selecionaAtacar(){
+        CombateUtils.acao = 0;
+    }
+
+    @FXML protected void selecionaCurar(){
+        if(CombateUtils.personagemAtivo.getClass() != Mago.class && CombateUtils.personagemAtivo.getClass() != Bruxa.class){
+            MensagemUtils.ShowMessage("Somente Magos e Bruxas podem curar!");
+            return;
+        }
+        CombateUtils.acao = 1;
+    }
+
     @FXML protected void imageViewTelaAtaqueJo1_Click(){
+        if (CombateUtils.acao == 1){
+            selecionaPersonagemCpu(0);
+            return;
+        }
 
-        labelNomeTelaAtaqueJo1.setText("SELECIONADO");
-
-
+        selecionaPersonagemJogador(0);
 
 
     }
     @FXML protected void imageViewTelaAtaqueJo2_Click(){
-
-
+        if (CombateUtils.acao == 1){
+            selecionaPersonagemCpu(1);
+            return;
+        }
+        selecionaPersonagemJogador(1);
     }
     @FXML protected void imageViewTelaAtaqueJo3_Click(){
-
-
+        if (CombateUtils.acao == 1){
+            selecionaPersonagemCpu(2);
+            return;
+        }
+        selecionaPersonagemJogador(2);
     }
     @FXML protected void imageViewTelaAtaqueJo4_Click(){
-
+        if (CombateUtils.acao == 1){
+            selecionaPersonagemCpu(3);
+            return;
+        }
+        selecionaPersonagemJogador(3);
 
     }
 
     @FXML protected void imageViewTelaAtaqueAd1_Click(){
-
+        if (CombateUtils.acao == 1){
+            MensagemUtils.ShowMessage("Não pode");
+            return;
+        }
+        selecionaPersonagemCpu(0);
 
     }
     @FXML protected void imageViewTelaAtaqueAd2_Click(){
-
+        if (CombateUtils.acao == 1){
+            MensagemUtils.ShowMessage("Não pode");
+            return;
+        }
+        selecionaPersonagemCpu(1);
 
     }
     @FXML protected void imageViewTelaAtaqueAd3_Click(){
-
+        if (CombateUtils.acao == 1){
+            MensagemUtils.ShowMessage("Não pode");
+            return;
+        }
+        selecionaPersonagemCpu(2);
 
     }
     @FXML protected void imageViewTelaAtaqueAd4_Click(){
-
+        if (CombateUtils.acao == 1){
+            MensagemUtils.ShowMessage("Não pode");
+            return;
+        }
+        selecionaPersonagemCpu(3);
 
     }
 

@@ -49,7 +49,7 @@ public abstract class Personagem{
     }
 
     public void sofrerDano(int reducao){
-        this.quantidadeVida = this.quantidadeVida - reducao;
+        this.quantidadeVida = this.quantidadeVida - reducao < 0 ? 0 : this.quantidadeVida - reducao ;
     }
 
     public String getNome() {

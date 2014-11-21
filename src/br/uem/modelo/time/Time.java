@@ -49,21 +49,25 @@ public class Time {
             if (personagem.getClass().equals(Guerreiro.class)) {
                 Guerreiro g = new Guerreiro();
                 g.setNome("Dark " + personagem.getNome());
+                g.setQuantidadeVida(100);
                 timeAd.insertPersonagem(g);
             }
             if (personagem.getClass().equals(Cavaleiro.class)) {
                 Cavaleiro c = new Cavaleiro();
                 c.setNome("Dark " + personagem.getNome());
+                c.setQuantidadeVida(100);
                 timeAd.insertPersonagem(c);
             }
             if (personagem.getClass().equals(Mago.class)) {
                 Mago m = new Mago();
                 m.setNome("Dark " + personagem.getNome());
+                m.setQuantidadeVida(100);
                 timeAd.insertPersonagem(m);
             }
             if (personagem.getClass().equals(Bruxa.class)) {
                 Bruxa b = new Bruxa();
                 b.setNome("Dark " + personagem.getNome());
+                b.setQuantidadeVida(100);
                 timeAd.insertPersonagem(b);
             }
 

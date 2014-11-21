@@ -22,7 +22,6 @@ public class Mago extends Protagonista{
 		return RESISTENCIA;
 	}
 
-
 	@Override
 	public int calcularFatorIncremento() {
 		return 0;

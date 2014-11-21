@@ -16,4 +16,13 @@ public class MensagemUtils {
         alert.showAndWait();
     }
 
+    public static void ShowMessage( String msg){
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Atenção");
+        alert.setHeaderText(null);
+        alert.setContentText(msg);
+
+        alert.showAndWait();
+    }
+
 }

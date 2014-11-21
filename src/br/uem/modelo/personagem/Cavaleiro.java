@@ -9,8 +9,8 @@ package br.uem.modelo.personagem;
 
 public class Cavaleiro extends Antagonista{
 
-	private static int DANO = 5;
-	private static int RESISTENCIA = 10;
+	private static int DANO = 7;
+	private static int RESISTENCIA = 8;
 	
 	@Override
 	public int getDano() {

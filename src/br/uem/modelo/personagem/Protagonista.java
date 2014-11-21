@@ -17,9 +17,11 @@ public abstract class Protagonista extends Personagem{
 	 * @param fatorIncremento Valor que deve ser acrescentado ao atributo quantidadeVida
 	 * @see Protagonista#calcularFatorIncremento() 
 	 */
-	public void incrementarVida(Personagem personagem, int fatorIncremento){
+	public int incrementarVida(Personagem personagem, int fatorIncremento){
 		personagem.setQuantidadeVida(personagem.getQuantidadeVida()+fatorIncremento);
+		return personagem.getQuantidadeVida()+ fatorIncremento;
 	}
+
 	
 	/**
 	 * O Protagonista causa um dano ao personagem atacado. 
